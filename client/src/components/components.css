@@ -1,0 +1,200 @@
+td {
+    border: 1px solid;
+}
+
+
+table {
+    width: 100%;
+}
+
+p {
+    color: red;
+    font-size: 13px;
+    margin: auto;
+    margin-right: 0px;
+}
+
+.form-group {
+    display: flex;
+    margin: auto;
+    background-color: lightgrey;
+    flex-direction: column;
+    border: solid;
+    height: 300px;
+    width: 650px;
+    text-align: left;
+    text-indent: 10px;
+    border-width: 3px;
+    padding: 10px 10px;
+}
+
+.form-group-row {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.col-8 {
+    display:flex;
+    flex-direction: column;
+}
+  
+.pokemon-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-text {
+    margin-left: 25px;
+}
+
+.home-link {
+    display:flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+
+.label_and_error {
+    display:flex;
+    flex-direction: row;
+    align-content: flex-start;
+    text-align: left;
+    height: 20px;
+}
+
+.pokemon-edit-form {
+    display: block;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    padding: 10px 40px;
+    width: 600px;
+}
+
+.pokemon-form {
+    display: block;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    padding: 10px 40px;
+    width: 600px;
+}
+
+.display-form {
+    display: block;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    padding: 10px 40px;
+    width: 70%;
+}
+
+.display-form h1 {
+    padding-top: 0;
+}
+
+.add-button {
+    margin: auto;
+    width: 100px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+.description-input {
+    height: 100px;
+}
+
+.edit-buttons {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: end;
+    align-items: end;
+    margin: auto;
+    width: 150px;
+    margin-bottom: 8px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+button {
+    border-radius: 0px;
+}
+
+.edit-button {
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+thead {
+    background-color: rgb(0,0,0,0.3);
+}
+
+.button-new {
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+th {
+    text-align: left;
+}
+
+.display-table {
+    border: 1px solid black;
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-content: end;
+    align-items: end;
+    width: 300px;
+}
+
+.edit-row {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    /* width: 400px; */
+}
+
+.pokemon-edit-form input {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.pokemon-edit-form textarea {
+    width: 300px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.pokemon-name {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.pokemon-links {
+    margin: auto;
+    margin-top: 20px;
+}
+
+tbody:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+table {
+    border-collapse:collapse;
+}
+
+tr {
+    border: none;
+}
+
+.app_resize-logo {
+    width: 200px;
+}

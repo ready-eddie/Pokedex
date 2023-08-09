@@ -1,0 +1,15 @@
+.searchbar-container {
+    position: absolute;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 80%;
+    
+}
+
+.searchbar-input {
+    margin: 5px;
+    background-color: white;
+    border-radius: 15px;
+}
